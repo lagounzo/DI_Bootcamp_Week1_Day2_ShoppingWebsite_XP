@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 21px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  /*position of list*/
+  li {
+    float: right;
+  }
+  
+  /*for logo
+  ============*/
+  i{
+    color: white;
+    font-size: 50px;
+  }
+
+  /* position of logo*/
+
+  li.logo{
+    float: left;
+  }
+  
+/* information about onglet*/
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+ /* CONTAINER
+ ============ */
+
+
+ .container{
+ 
+  display: flex;
+  margin: 26px;
+  margin-right: 6px;
+  margin-left: 6px;
+  align-content: space-around;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+ 
+
+/* IMAGE ARTICLE */
+
+
+ .image1{
+  background-image: url(../css/images/image1.png);
+  width: 307px;
+  height: 420px;
+  background-size: cover;
+}
+
+
+
+.image2{
+  background-image: url(../css/images/image2.png);
+  width: 307px;
+  height: 420px;
+  background-size: cover;
+}
+
+.image3{
+  background-image: url(../css/images/image3.png);
+  width: 307px;
+  height: 420px;
+  background-size: cover;
+}
+
+.image4{
+  background-image: url(../css/images/image4.png);
+  width: 307px;
+  height: 420px;
+  background-size: cover;
+}
+
+
+
+
+.foire{
+  display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+   
+}
+ 
+.New{
+  
+  background-color: green;
+  color: #fff;
+  border-radius: 107%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+
+.reduction{
+  
+  background-color: RED;
+  color: #fff;
+  border-radius: 111%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+
+
+
+.new{
+  display: flex;
+  background-color: green;
+  color: #fff;
+  border-radius: 100%;
+  border: 1px solid;
+  padding: 5px;
+  align-items: center;
+}
+
+/* .New12{
+  display: flex;
+  
+} */
+
+
+.reduction12{
+  display: flex;
+  background-color: RED;
+  color: #fff;
+  border-radius: 111%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+/* PRICE */
+
+.prix{
+
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+  margin-top: 10px;
+}
+
+.old-price{
+  text-decoration: line-through;
+  columns: black;
+}
+
+.color{
+  color: green;
+  margin-top: 7px;
+  padding-left: -5px;
+  /* word-spacing: 1rem; */
+}
+
+
+
+span{
+  color: black;
+  word-spacing: 1rem;
+}
+
+#register{
+
+    border: 2px solid gray;
+    margin-top: 14px;
+}
+
+
+
+ 
+
+  /* FOOTER
+  =========== */
+
+  .footer{
+    columns: #fff;
+    background-color: red;
+    text-align: center;
+    color: #FFF;
+  }
+
+
+
